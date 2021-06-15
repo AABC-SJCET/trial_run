@@ -2,7 +2,7 @@ from flask import Flask, request,jsonify
 from keras import backend as K
 import cv2
 import numpy as np
-from tensorflow.model import load_model
+#from tensorflow.model import load_model
 
 #
 
