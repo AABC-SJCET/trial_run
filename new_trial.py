@@ -78,7 +78,7 @@ model.compile(optimizer = Adam(learning_rate=0.001), loss='categorical_crossentr
 history = model.fit(train_X, train_yOHE, epochs=1,  validation_data = (test_X,test_yOHE))
 
 model.summary()
-model.save(r'model_hand.h5')
+model.save(r'model.h5')
 
 fig, axes = plt.subplots(3,3, figsize=(8,9))
 axes = axes.flatten()
